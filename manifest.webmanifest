@@ -1,19 +1,18 @@
 {
-  "id": "/",
   "name": "SnapNote",
   "short_name": "SnapNote",
-  "description": "Photo annotée + notes de terrain, export PNG/PDF",
-  "lang": "fr",
-  "start_url": ".",
-  "scope": ".",
+  "description": "Fiche terrain : photos annotées, matériel, notes vocales, PDF",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#070b16",
-  "theme_color": "#070b16",
+  "background_color": "#040a1d",
+  "theme_color": "#071233",
+  "lang": "fr",
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
     { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
